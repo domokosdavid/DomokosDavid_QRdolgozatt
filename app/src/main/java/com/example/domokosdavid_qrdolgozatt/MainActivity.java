@@ -47,7 +47,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        buttonKiir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    fajlbair(textViewKiir.getText().toString());
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
 
 
     }
