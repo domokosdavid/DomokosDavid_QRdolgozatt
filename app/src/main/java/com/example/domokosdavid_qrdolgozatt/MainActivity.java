@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
+    //nem ír ki semmit fájlba, vagy nem találom meg, én már nem tudom
 
     }
     @Override
